@@ -1,0 +1,127 @@
+
+
+body{
+    font-family: 'happy Monkey';
+    text-align: center;
+    color: white;
+    /* background-color:#a2d2ff; */
+    background: linear-gradient(#a2d2ff, pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+h1, h2, h4{
+ text-shadow: 0px 0px 1.5px black;
+}
+
+#boy-pic{
+    width: 150px;
+    border: 5px solid #efb0c9;
+    border-radius: 50%;
+}
+#bday-age{
+    background: #efb0c9;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+#bday-date{
+    background: #efb0c9;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.gift-img{
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/4659249.jpg");
+    background-size: cover;
+}
+
+.gift-img:hover{
+    background-image: url('Images/200w.webp');
+    background-size: cover;
+}
+
+.gift-section{
+    margin-top: 20px;
+}
+
+.gift-img1{
+     border: 5px solid white;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/4659249.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+  
+.gift-img1:hover{
+    background-image: url("Images/200w\ \(1\).webp");
+    
+}
+
+.gift-img2{
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/4659249.jpg");
+    background-size: cover;
+}
+.gift-img2:hover{
+    background-image: url("Images/200w\ \(2\).webp");
+background-size: cover;
+    
+}
+
+.gift-img3{
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/4659249.jpg");
+    background-size: cover;
+}
+
+.gift-img3:hover{
+    background-image: url("Images/200w\ \(3\).webp");
+}
+
+.gift-img4{
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 400px;
+    height: 200px;
+    background-image: url("Images/4659249.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.gift-img4:hover{
+    background-image: url("Images/100.webp");
+}
+a{
+    font-size: larger;
+}
+#Footer{
+    width: 400px;
+   margin: 40px auto 20px;
+   font-style: italic;
+}
